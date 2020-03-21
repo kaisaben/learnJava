@@ -1,2 +1,24 @@
 /.idea
 /out
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python:
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+# My configurations:
+db.ini
+deploy_key_rsa
+
+*.iml
+
+
+#强制添加 git add -f App.class
+#查看哪一条规则限制 git check-ignore -v App.class
