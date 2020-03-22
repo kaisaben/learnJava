@@ -1,3 +1,5 @@
+package TCP;
+
 import java.io.*;
 import java.net.Socket;
 import java.nio.charset.StandardCharsets;
@@ -21,7 +23,7 @@ public class Client {
         var reader = new BufferedReader(new InputStreamReader(input, StandardCharsets.UTF_8));
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("[Server] " + reader.readLine());
+        System.out.println("[TCP.Server] " + reader.readLine());
         for (; ; ) {
             System.out.println(">>>");
             String s = scanner.nextLine();
